@@ -33,7 +33,11 @@ namespace FaultTolerant
             try
             {
                 WhenFunctionSucceededFunction succeeded = new();
-                succeeded.FunctionSucceeded(() => Divide(10, 0), 0, 3);
+
+                CrazyThrowExceptionFunction crazyFuncionClass = new();
+
+                succeeded.FunctionSucceeded(() => crazyFuncionClass.CrazyFunction(), 0, 3);
+                
             }
             catch (Exception) {}
         }
