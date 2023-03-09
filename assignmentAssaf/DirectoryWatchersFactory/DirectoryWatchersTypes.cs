@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace assignmentAssaf
+namespace assignmentAssaf.DirectoryWatcherFactories
 {
-    internal class CustomException
+    internal enum DirectoryWatchersTypes
     {
+        None = 0,
+        DirectoryWatcher
     }
 }
