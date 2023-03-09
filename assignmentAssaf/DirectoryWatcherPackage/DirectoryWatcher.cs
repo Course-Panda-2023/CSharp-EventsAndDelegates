@@ -1,4 +1,5 @@
-﻿using assignmentAssaf.DirectoryWatcherPackage;
+﻿using assignmentAssaf.DirectoryWatcherFactories;
+using assignmentAssaf.DirectoryWatcherPackage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,14 @@ namespace assignmentAssaf.DirectoryWatcherPackage
     {
         private FileSystemWatcher FileSystemWatcherfileSystemWatcher = new();
 
-        public void SetDirectoryPath(string directoryPath)
+        public override void SetDirectoryPath(string directoryPath)
         {
             FileSystemWatcherfileSystemWatcher.Path = directoryPath;
+        }
+
+        public void SetDirectoryWatchersTypes(DirectoryWatchersTypes type)
+        {
+            this.DirectoryWatchersTypes = type;
         }
 
         private static void OnChanged(object sender, FileSystemEventArgs e)

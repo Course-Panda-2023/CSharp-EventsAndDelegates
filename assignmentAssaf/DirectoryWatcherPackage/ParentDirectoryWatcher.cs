@@ -15,6 +15,8 @@ namespace assignmentAssaf.DirectoryWatcherPackage
 
         public abstract void Stop();
 
+        public virtual void SetDirectoryPath(string directoryPath) {}
+
         public bool FindType(DirectoryWatchersTypes directoryWatchersTypes)
         {
             return this.DirectoryWatchersTypes == directoryWatchersTypes;

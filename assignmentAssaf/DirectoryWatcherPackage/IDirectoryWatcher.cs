@@ -8,5 +8,7 @@ namespace assignmentAssaf.DirectoryWatcherPackage
         void Stop();
 
         bool FindType(DirectoryWatchersTypes directoryWatcher);
+
+        void SetDirectoryPath(string directoryPath);
     }
 }

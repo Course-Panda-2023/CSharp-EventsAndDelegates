@@ -12,7 +12,9 @@ namespace assignmentAssaf.DirectoryWatchersFactory
 
         public DirectoryWatchersFactory()
         {
-            directoriesWatcherList.Add(new DirectoryWatcher());
+            DirectoryWatcher watcher = new DirectoryWatcher();
+            watcher.SetDirectoryWatchersTypes(DirectoryWatchersTypes.DirectoryWatcher);
+            directoriesWatcherList.Add(watcher);
         }
 
         public IDirectoryWatcher GetDirectoryWatcher(DirectoryWatchersTypes directoryWatcherType)
