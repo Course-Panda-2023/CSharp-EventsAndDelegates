@@ -11,14 +11,45 @@ namespace assignmentAssaf.DirectoryWatcherPackage
     {
         private FileSystemWatcher FileSystemWatcherfileSystemWatcher = new();
 
+        public void SetDirectoryPath(string directoryPath)
+        {
+            FileSystemWatcherfileSystemWatcher.Path = directoryPath;
+        }
+
+        private static void OnChanged(object sender, FileSystemEventArgs e)
+        {
+            if (e.ChangeType != WatcherChangeTypes.Changed) return;
+            Console.WriteLine($"Changed: {e.FullPath}");
+        }
+
+        private static void OnCreated(object sender, FileSystemEventArgs e)
+        {
+            string value = $"Created: {e.FullPath}";
+            Console.WriteLine(value);
+        }
+
+        private static void OnDeleted(object sender, FileSystemEventArgs e) =>
+            Console.WriteLine($"Deleted: {e.FullPath}");
+
+
         public override void Start()
         {
-            
+            FileSystemWatcherfileSystemWatcher.NotifyFilter =
+                                 NotifyFilters.LastWrite 
+                                 | NotifyFilters.FileName;
+
+            FileSystemWatcherfileSystemWatcher.Changed += OnChanged;
+            FileSystemWatcherfileSystemWatcher.Created += OnCreated;
+            FileSystemWatcherfileSystemWatcher.Deleted += OnDeleted;
+
+            FileSystemWatcherfileSystemWatcher.Filter = "*.txt";
+            FileSystemWatcherfileSystemWatcher.EnableRaisingEvents = true;
         }
 
         public override void Stop()
         {
-
+            FileSystemWatcherfileSystemWatcher.Dispose();
+            FileSystemWatcherfileSystemWatcher.EnableRaisingEvents = false;
         }
     }
 }
