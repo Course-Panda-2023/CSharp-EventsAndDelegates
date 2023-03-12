@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using assignmentAssaf.DirectoryWatcherFactories;
-using assignmentAssaf.Utils;
+﻿using assignmentAssaf.DirectoryWatcherFactories;
 
 namespace assignmentAssaf.DirectoryWatcherPackage
 {
@@ -15,7 +9,7 @@ namespace assignmentAssaf.DirectoryWatcherPackage
 
         public abstract void Stop();
 
-        public virtual void SetDirectoryPath(string directoryPath) {}
+        public virtual void SetDirectoryPath(string directoryPath) { }
 
         public bool FindType(DirectoryWatchersTypes directoryWatchersTypes)
         {

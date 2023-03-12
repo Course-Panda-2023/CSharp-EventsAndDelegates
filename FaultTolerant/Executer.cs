@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FaultTolerant
+﻿namespace FaultTolerant
 {
     internal class Executer
     {
@@ -12,7 +6,7 @@ namespace FaultTolerant
         {
             int attempts = 0;
 
-            while (attempts < maxAttempts) 
+            while (attempts < maxAttempts)
             {
                 Console.WriteLine("Running...");
                 try

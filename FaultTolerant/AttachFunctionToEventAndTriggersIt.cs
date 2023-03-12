@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FaultTolerant
+﻿namespace FaultTolerant
 {
     internal class AttachFunctionToEventAndTriggersit
     {
@@ -37,9 +31,9 @@ namespace FaultTolerant
                 CrazyThrowExceptionFunction crazyFuncionClass = new();
 
                 succeeded.FunctionSucceeded(() => crazyFuncionClass.CrazyFunction(), 0, 3);
-                
+
             }
-            catch (Exception) {}
+            catch (Exception) { }
         }
     }
 }

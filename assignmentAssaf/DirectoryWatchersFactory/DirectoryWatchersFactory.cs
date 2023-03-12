@@ -1,6 +1,6 @@
 ﻿using assignmentAssaf.DirectoryWatcherFactories;
-using System.Runtime.InteropServices;
 using assignmentAssaf.DirectoryWatcherPackage;
+using System.Runtime.InteropServices;
 
 namespace assignmentAssaf.DirectoryWatchersFactory
 {
@@ -40,7 +40,7 @@ namespace assignmentAssaf.DirectoryWatchersFactory
             foreach (var directoryWatcher in CollectionsMarshal.AsSpan(directoriesWatcherList))
             {
                 if (!directoryWatcher.FindType(directoryWatcherType)) continue;
-                
+
                 directoryWatcherResult = directoryWatcher;
                 return;
             }

@@ -1,10 +1,4 @@
 ﻿using assignmentAssaf.DirectoryWatcherFactories;
-using assignmentAssaf.DirectoryWatcherPackage;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace assignmentAssaf.DirectoryWatcherPackage
 {
@@ -41,7 +35,7 @@ namespace assignmentAssaf.DirectoryWatcherPackage
         public override void Start()
         {
             FileSystemWatcherfileSystemWatcher.NotifyFilter =
-                                 NotifyFilters.LastWrite 
+                                 NotifyFilters.LastWrite
                                  | NotifyFilters.FileName;
 
             FileSystemWatcherfileSystemWatcher.Changed += OnChanged;
