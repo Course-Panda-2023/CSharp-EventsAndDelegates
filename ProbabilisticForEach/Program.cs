@@ -18,6 +18,7 @@ static int RandomMinOfAList(int listCount)
     Random random = new();
     return Enumerable.Range(0, listCount).Select(x => random.Next(0, 100)).Sum();
 }
+
 List<Func<int>> functionsStack = new()
 {
     () => RandomSumOfAList(100),
