@@ -8,6 +8,8 @@ namespace AdditionalAssignmentsDelegates
 {
     delegate void ExceptionFunc();
     delegate void DateFunc(DateTime date);
+    delegate void voidfunc(object o);
+
 
 
     internal class Assignments
@@ -48,6 +50,15 @@ namespace AdditionalAssignmentsDelegates
             func(date);
 
         }
+
+        public static void func4(List<object> list,voidfunc myFunc)
+        {
+            list.ForEach(x => new Thread(() => myFunc(x)).Start());
+        }
+
+
+
+
 
 
 
