@@ -1,0 +1,15 @@
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.csproj.AssemblyReference.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.AssemblyInfoInputs.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.AssemblyInfo.cs
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.csproj.CoreCompileInputs.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\bin\Debug\net6.0\FaultTolerant.exe
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\bin\Debug\net6.0\FaultTolerant.deps.json
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\bin\Debug\net6.0\FaultTolerant.runtimeconfig.json
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\bin\Debug\net6.0\FaultTolerant.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\bin\Debug\net6.0\FaultTolerant.pdb
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\refint\FaultTolerant.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.pdb
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\FaultTolerant.genruntimeconfig.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\FaultTolerant\FaultTolerant\obj\Debug\net6.0\ref\FaultTolerant.dll

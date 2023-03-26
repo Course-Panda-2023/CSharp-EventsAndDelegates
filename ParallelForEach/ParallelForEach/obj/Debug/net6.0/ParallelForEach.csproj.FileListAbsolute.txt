@@ -1,0 +1,15 @@
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.csproj.AssemblyReference.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.AssemblyInfoInputs.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.AssemblyInfo.cs
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.csproj.CoreCompileInputs.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\bin\Debug\net6.0\ParallelForEach.exe
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\bin\Debug\net6.0\ParallelForEach.deps.json
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\bin\Debug\net6.0\ParallelForEach.runtimeconfig.json
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\bin\Debug\net6.0\ParallelForEach.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\bin\Debug\net6.0\ParallelForEach.pdb
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\refint\ParallelForEach.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.pdb
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ParallelForEach.genruntimeconfig.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ParallelForEach\ParallelForEach\obj\Debug\net6.0\ref\ParallelForEach.dll

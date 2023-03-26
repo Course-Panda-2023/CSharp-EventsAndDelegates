@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaultTolerant", "FaultTolerant\FaultTolerant.csproj", "{9646B180-D41B-47DD-B5C2-0DA9D653F808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9646B180-D41B-47DD-B5C2-0DA9D653F808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9646B180-D41B-47DD-B5C2-0DA9D653F808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9646B180-D41B-47DD-B5C2-0DA9D653F808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9646B180-D41B-47DD-B5C2-0DA9D653F808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {429C3271-CEE2-4E0E-B426-9831E6886A4A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\bin\Debug\net6.0\ProbalisticForEach.exe
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\bin\Debug\net6.0\ProbalisticForEach.deps.json
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\bin\Debug\net6.0\ProbalisticForEach.runtimeconfig.json
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\bin\Debug\net6.0\ProbalisticForEach.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\bin\Debug\net6.0\ProbalisticForEach.pdb
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.csproj.AssemblyReference.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.AssemblyInfoInputs.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.AssemblyInfo.cs
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.csproj.CoreCompileInputs.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\refint\ProbalisticForEach.dll
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.pdb
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ProbalisticForEach.genruntimeconfig.cache
+C:\Users\guyal.DESKTOP-S2VGE0F\Source\Repos\ProbalisticForEach\ProbalisticForEach\obj\Debug\net6.0\ref\ProbalisticForEach.dll
