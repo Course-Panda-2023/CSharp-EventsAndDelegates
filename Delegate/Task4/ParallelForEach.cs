@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-class Program
+class ParallelForEach
 {
     static void Main()
     {
