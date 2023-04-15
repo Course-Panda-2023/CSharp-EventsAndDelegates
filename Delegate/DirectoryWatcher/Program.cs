@@ -13,20 +13,39 @@ class IDirectoryWatcherFactory
     {
         string path = "C:\\tmp";
         IDirectoryWatcher watcher = CreateWatcher(path,Directory.GetFiles);
+        watcher.TextFilter();
         watcher.start();
-        Console.ReadLine();
+
+        string? input;
+        do
+        {
+            Console.WriteLine("write \"start\", \"stop\", or \"exit\"");
+            input = Console.ReadLine();
+            if (input != null)
+            {
+                switch (input)
+                {
+                    case "start":
+                        watcher.start();
+                        break;
+                    case "stop":
+                        watcher.stop();
+                        break;
+                }
+            }
+
+        } while (input != "exit" );
     }
 }
 class IDirectoryWatcher : FileSystemWatcher
 {
-    //new FileSystemWatcher()
     IDirectoryWatcherFactory.GetFiles func;
     public IDirectoryWatcher(string _path, IDirectoryWatcherFactory.GetFiles _func) : base(_path)
     {
         func = _func;
-        Changed += HandleEverything;
-        Deleted += HandleEverything;
-        Created += HandleEverything;
+        Changed += HandleChanges;
+        Deleted += HandleChanges;
+        Created += HandleChanges;
     }
     public void start()
     {
@@ -36,10 +55,14 @@ class IDirectoryWatcher : FileSystemWatcher
     {
         this.EnableRaisingEvents= false;
     }
-    private void HandleEverything(object sender, FileSystemEventArgs e)
+    private void HandleChanges(object sender, FileSystemEventArgs e)
     {
         WatcherChangeTypes type = e.ChangeType;
         Console.WriteLine(type.ToString() + "   " + e.FullPath);
         Console.WriteLine("Current Directory state:\n" + String.Concat( func(Path)));//func(Path).ToList().Select(x=>x.ToString().Concat());
+    }
+    internal void TextFilter()
+    {
+        Filter = "*.txt";
     }
 }
